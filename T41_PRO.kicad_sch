@@ -4,24 +4,31 @@
 	(generator_version "9.0")
 	(uuid "55a1f18b-0cb7-4e10-bed0-1356b4e042ec")
 	(paper "A3")
+	(title_block
+		(title "T41_PRO")
+		(date "2025-07-19")
+		(rev "0")
+		(company "David Asmuth")
+		(comment 1 "Teensy compatible production read module")
+	)
 	(lib_symbols
 		(symbol "local:MIMXRT1062DVJ6B"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 3.302 0)
+				(at 4.318 -9.144 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "NXP MIMXRT1062DVJ6B"
+				(at 5.08 -106.934 90)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 2.54 2.54)
 					)
 				)
 			)
@@ -52,10 +59,19 @@
 					(hide yes)
 				)
 			)
+			(property "ki_keywords" "IMX NXP MCU"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "MIMXRT1062DVJ6B_1_1"
 				(rectangle
 					(start -24.13 0)
-					(end 116.84 -237.49)
+					(end 34.29 -237.49)
 					(stroke
 						(width 0)
 						(type solid)
@@ -65,8 +81,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -5.08 0)
-					(length 2.54)
+					(at -27.94 -2.54 0)
+					(length 3.81)
 					(name "USB_OTG1_VBUS"
 						(effects
 							(font
@@ -83,8 +99,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -7.62 0)
-					(length 2.54)
+					(at -27.94 -5.08 0)
+					(length 3.81)
 					(name "USB_OTG2_VBUS"
 						(effects
 							(font
@@ -101,8 +117,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -11.43 0)
-					(length 2.54)
+					(at -27.94 -7.62 0)
+					(length 3.81)
 					(name "PMIC_ON_REQ"
 						(effects
 							(font
@@ -119,8 +135,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -16.51 0)
-					(length 2.54)
+					(at -27.94 -10.16 0)
+					(length 3.81)
 					(name "VDD_HIGH_IN"
 						(effects
 							(font
@@ -137,8 +153,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -19.05 0)
-					(length 2.54)
+					(at -27.94 -12.7 0)
+					(length 3.81)
 					(name "VDDA_ADC_3P3"
 						(effects
 							(font
@@ -155,8 +171,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -21.59 0)
-					(length 2.54)
+					(at -27.94 -15.24 0)
+					(length 3.81)
 					(name "NVCC_GPIO"
 						(effects
 							(font
@@ -173,8 +189,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -24.13 0)
-					(length 2.54)
+					(at -27.94 -17.78 0)
+					(length 3.81)
 					(name "NVCC_GPIO"
 						(effects
 							(font
@@ -191,8 +207,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -26.67 0)
-					(length 2.54)
+					(at -27.94 -20.32 0)
+					(length 3.81)
 					(name "NVCC_GPIO"
 						(effects
 							(font
@@ -209,8 +225,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -29.21 0)
-					(length 2.54)
+					(at -27.94 -22.86 0)
+					(length 3.81)
 					(name "NVCC_EMC"
 						(effects
 							(font
@@ -227,8 +243,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -31.75 0)
-					(length 2.54)
+					(at -27.94 -25.4 0)
+					(length 3.81)
 					(name "NVCC_EMC"
 						(effects
 							(font
@@ -245,8 +261,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -34.29 0)
-					(length 2.54)
+					(at -27.94 -27.94 0)
+					(length 3.81)
 					(name "NVCC_SD0"
 						(effects
 							(font
@@ -263,8 +279,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -36.83 0)
-					(length 2.54)
+					(at -27.94 -30.48 0)
+					(length 3.81)
 					(name "NVCC_SD1"
 						(effects
 							(font
@@ -281,8 +297,8 @@
 					)
 				)
 				(pin power_in line
-					(at -26.67 -39.37 0)
-					(length 2.54)
+					(at -27.94 -33.02 0)
+					(length 3.81)
 					(name "DCDC_IN_Q"
 						(effects
 							(font
@@ -299,8 +315,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -44.45 0)
-					(length 2.54)
+					(at -27.94 -35.56 0)
+					(length 3.81)
 					(name "USB_OTG1_DN"
 						(effects
 							(font
@@ -317,8 +333,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -46.99 0)
-					(length 2.54)
+					(at -27.94 -38.1 0)
+					(length 3.81)
 					(name "USB_OTG1_DP"
 						(effects
 							(font
@@ -335,8 +351,8 @@
 					)
 				)
 				(pin power_in line
-					(at -26.67 -52.07 0)
-					(length 2.54)
+					(at -27.94 -40.64 0)
+					(length 3.81)
 					(name "DCDC_IN"
 						(effects
 							(font
@@ -353,8 +369,8 @@
 					)
 				)
 				(pin power_in line
-					(at -26.67 -54.61 0)
-					(length 2.54)
+					(at -27.94 -43.18 0)
+					(length 3.81)
 					(name "DCDC_IN"
 						(effects
 							(font
@@ -371,8 +387,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -59.69 0)
-					(length 2.54)
+					(at -27.94 -45.72 0)
+					(length 3.81)
 					(name "GPIO_EMC_40"
 						(effects
 							(font
@@ -389,8 +405,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -64.77 0)
-					(length 2.54)
+					(at -27.94 -48.26 0)
+					(length 3.81)
 					(name "DCDC_LP"
 						(effects
 							(font
@@ -407,8 +423,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -67.31 0)
-					(length 2.54)
+					(at -27.94 -50.8 0)
+					(length 3.81)
 					(name "DCDC_LP"
 						(effects
 							(font
@@ -425,8 +441,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -72.39 0)
-					(length 2.54)
+					(at -27.94 -53.34 0)
+					(length 3.81)
 					(name "USB_OTG2_DN"
 						(effects
 							(font
@@ -443,8 +459,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -74.93 0)
-					(length 2.54)
+					(at -27.94 -55.88 0)
+					(length 3.81)
 					(name "USB_OTG2_DP"
 						(effects
 							(font
@@ -461,8 +477,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -80.01 0)
-					(length 2.54)
+					(at -27.94 -58.42 0)
+					(length 3.81)
 					(name "VDD_SOC_IN"
 						(effects
 							(font
@@ -479,8 +495,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -82.55 0)
-					(length 2.54)
+					(at -27.94 -60.96 0)
+					(length 3.81)
 					(name "VDD_SOC_IN"
 						(effects
 							(font
@@ -497,8 +513,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -85.09 0)
-					(length 2.54)
+					(at -27.94 -63.5 0)
+					(length 3.81)
 					(name "VDD_SOC_IN"
 						(effects
 							(font
@@ -515,8 +531,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -87.63 0)
-					(length 2.54)
+					(at -27.94 -66.04 0)
+					(length 3.81)
 					(name "VDD_SOC_IN"
 						(effects
 							(font
@@ -533,8 +549,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -90.17 0)
-					(length 2.54)
+					(at -27.94 -68.58 0)
+					(length 3.81)
 					(name "VDD_SOC_IN"
 						(effects
 							(font
@@ -551,8 +567,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -92.71 0)
-					(length 2.54)
+					(at -27.94 -71.12 0)
+					(length 3.81)
 					(name "VDD_SOC_IN"
 						(effects
 							(font
@@ -569,8 +585,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -95.25 0)
-					(length 2.54)
+					(at -27.94 -73.66 0)
+					(length 3.81)
 					(name "VDD_SOC_IN"
 						(effects
 							(font
@@ -587,8 +603,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -97.79 0)
-					(length 2.54)
+					(at -27.94 -76.2 0)
+					(length 3.81)
 					(name "VDD_SOC_IN"
 						(effects
 							(font
@@ -605,8 +621,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -100.33 0)
-					(length 2.54)
+					(at -27.94 -78.74 0)
+					(length 3.81)
 					(name "VDD_SOC_IN"
 						(effects
 							(font
@@ -623,8 +639,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -102.87 0)
-					(length 2.54)
+					(at -27.94 -81.28 0)
+					(length 3.81)
 					(name "DCDC_SENSE"
 						(effects
 							(font
@@ -641,8 +657,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -106.68 0)
-					(length 2.54)
+					(at -27.94 -83.82 0)
+					(length 3.81)
 					(name "VDD_USB_CAP"
 						(effects
 							(font
@@ -659,8 +675,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -109.22 0)
-					(length 2.54)
+					(at -27.94 -86.36 0)
+					(length 3.81)
 					(name "VDD_SNVS_IN"
 						(effects
 							(font
@@ -677,8 +693,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -111.76 0)
-					(length 2.54)
+					(at -27.94 -88.9 0)
+					(length 3.81)
 					(name "ONOFF"
 						(effects
 							(font
@@ -695,8 +711,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -116.84 0)
-					(length 2.54)
+					(at -27.94 -91.44 0)
+					(length 3.81)
 					(name "GPIO_SD_B0_04"
 						(effects
 							(font
@@ -713,8 +729,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -119.38 0)
-					(length 2.54)
+					(at -27.94 -93.98 0)
+					(length 3.81)
 					(name "GPIO_SD_B0_05"
 						(effects
 							(font
@@ -731,8 +747,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -121.92 0)
-					(length 2.54)
+					(at -27.94 -96.52 0)
+					(length 3.81)
 					(name "GPIO_SD_B0_00"
 						(effects
 							(font
@@ -749,8 +765,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -127 0)
-					(length 2.54)
+					(at -27.94 -99.06 0)
+					(length 3.81)
 					(name "GPIO_SD_B0_01"
 						(effects
 							(font
@@ -767,8 +783,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -132.08 0)
-					(length 2.54)
+					(at -27.94 -101.6 0)
+					(length 3.81)
 					(name "GPIO_SD_B0_02"
 						(effects
 							(font
@@ -785,8 +801,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -134.62 0)
-					(length 2.54)
+					(at -27.94 -104.14 0)
+					(length 3.81)
 					(name "GPIO_SD_B0_03"
 						(effects
 							(font
@@ -803,8 +819,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -139.7 0)
-					(length 2.54)
+					(at -27.94 -106.68 0)
+					(length 3.81)
 					(name "GPIO_EMC_24"
 						(effects
 							(font
@@ -821,8 +837,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -142.24 0)
-					(length 2.54)
+					(at -27.94 -109.22 0)
+					(length 3.81)
 					(name "GPIO_EMC_25"
 						(effects
 							(font
@@ -839,8 +855,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -144.78 0)
-					(length 2.54)
+					(at -27.94 -111.76 0)
+					(length 3.81)
 					(name "GPIO_EMC_26"
 						(effects
 							(font
@@ -857,8 +873,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -147.32 0)
-					(length 2.54)
+					(at -27.94 -114.3 0)
+					(length 3.81)
 					(name "GPIO_EMC_27"
 						(effects
 							(font
@@ -875,8 +891,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -149.86 0)
-					(length 2.54)
+					(at -27.94 -116.84 0)
+					(length 3.81)
 					(name "GPIO_EMC_28"
 						(effects
 							(font
@@ -893,8 +909,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -152.4 0)
-					(length 2.54)
+					(at -27.94 -119.38 0)
+					(length 3.81)
 					(name "GPIO_EMC_29"
 						(effects
 							(font
@@ -911,8 +927,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -157.48 0)
-					(length 2.54)
+					(at -27.94 -121.92 0)
+					(length 3.81)
 					(name "GPIO_EMC_22"
 						(effects
 							(font
@@ -929,8 +945,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -163.83 0)
-					(length 2.54)
+					(at -27.94 -124.46 0)
+					(length 3.81)
 					(name "GPIO_SD_B1_06"
 						(effects
 							(font
@@ -947,8 +963,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -166.37 0)
-					(length 2.54)
+					(at -27.94 -127 0)
+					(length 3.81)
 					(name "GPIO_SD_B1_07"
 						(effects
 							(font
@@ -965,8 +981,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -168.91 0)
-					(length 2.54)
+					(at -27.94 -129.54 0)
+					(length 3.81)
 					(name "GPIO_SD_B1_08"
 						(effects
 							(font
@@ -983,8 +999,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -171.45 0)
-					(length 2.54)
+					(at -27.94 -132.08 0)
+					(length 3.81)
 					(name "GPIO_SD_B1_09"
 						(effects
 							(font
@@ -1001,8 +1017,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -173.99 0)
-					(length 2.54)
+					(at -27.94 -134.62 0)
+					(length 3.81)
 					(name "GPIO_SD_B1_10"
 						(effects
 							(font
@@ -1019,8 +1035,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -176.53 0)
-					(length 2.54)
+					(at -27.94 -137.16 0)
+					(length 3.81)
 					(name "GPIO_SD_B1_11"
 						(effects
 							(font
@@ -1037,8 +1053,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -182.88 0)
-					(length 2.54)
+					(at -27.94 -139.7 0)
+					(length 3.81)
 					(name "GPIO_AD_B0_04"
 						(effects
 							(font
@@ -1055,8 +1071,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -185.42 0)
-					(length 2.54)
+					(at -27.94 -142.24 0)
+					(length 3.81)
 					(name "GPIO_AD_B0_06"
 						(effects
 							(font
@@ -1073,8 +1089,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -187.96 0)
-					(length 2.54)
+					(at -27.94 -144.78 0)
+					(length 3.81)
 					(name "GPIO_AD_B0_07"
 						(effects
 							(font
@@ -1091,8 +1107,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -190.5 0)
-					(length 2.54)
+					(at -27.94 -147.32 0)
+					(length 3.81)
 					(name "GPIO_AD_B0_08"
 						(effects
 							(font
@@ -1109,8 +1125,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -193.04 0)
-					(length 2.54)
+					(at -27.94 -149.86 0)
+					(length 3.81)
 					(name "GPIO_AD_B0_09"
 						(effects
 							(font
@@ -1127,8 +1143,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -195.58 0)
-					(length 2.54)
+					(at -27.94 -152.4 0)
+					(length 3.81)
 					(name "GPIO_AD_B0_10"
 						(effects
 							(font
@@ -1145,8 +1161,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -198.12 0)
-					(length 2.54)
+					(at -27.94 -154.94 0)
+					(length 3.81)
 					(name "GPIO_EMC_01"
 						(effects
 							(font
@@ -1163,8 +1179,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -200.66 0)
-					(length 2.54)
+					(at -27.94 -157.48 0)
+					(length 3.81)
 					(name "GPIO_B0_13"
 						(effects
 							(font
@@ -1181,8 +1197,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -203.2 0)
-					(length 2.54)
+					(at -27.94 -160.02 0)
+					(length 3.81)
 					(name "POR_B"
 						(effects
 							(font
@@ -1199,8 +1215,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -205.74 0)
-					(length 2.54)
+					(at -27.94 -162.56 0)
+					(length 3.81)
 					(name "DCDC_PSWITCH"
 						(effects
 							(font
@@ -1217,8 +1233,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -208.28 0)
-					(length 2.54)
+					(at -27.94 -165.1 0)
+					(length 3.81)
 					(name "GPIO_AD_B0_11"
 						(effects
 							(font
@@ -1235,8 +1251,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -213.36 0)
-					(length 2.54)
+					(at -27.94 -167.64 0)
+					(length 3.81)
 					(name "VDD_HIGH_CAP"
 						(effects
 							(font
@@ -1253,8 +1269,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -215.9 0)
-					(length 2.54)
+					(at -27.94 -170.18 0)
+					(length 3.81)
 					(name "NVCC_PLL"
 						(effects
 							(font
@@ -1271,8 +1287,8 @@
 					)
 				)
 				(pin passive line
-					(at -26.67 -218.44 0)
-					(length 2.54)
+					(at -27.94 -172.72 0)
+					(length 3.81)
 					(name "VDD_SNVS_CAP"
 						(effects
 							(font
@@ -1289,8 +1305,8 @@
 					)
 				)
 				(pin passive line
-					(at -21.59 -240.03 90)
-					(length 2.54)
+					(at -27.94 -175.26 0)
+					(length 3.81)
 					(name "GPIO_EMC_00"
 						(effects
 							(font
@@ -1307,8 +1323,8 @@
 					)
 				)
 				(pin passive line
-					(at -19.05 -240.03 90)
-					(length 2.54)
+					(at -27.94 -177.8 0)
+					(length 3.81)
 					(name "GPIO_EMC_02"
 						(effects
 							(font
@@ -1325,8 +1341,8 @@
 					)
 				)
 				(pin passive line
-					(at -16.51 -240.03 90)
-					(length 2.54)
+					(at -27.94 -180.34 0)
+					(length 3.81)
 					(name "GPIO_EMC_03"
 						(effects
 							(font
@@ -1343,368 +1359,8 @@
 					)
 				)
 				(pin passive line
-					(at -13.97 -240.03 90)
-					(length 2.54)
-					(name "GPIO_EMC_41"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -11.43 -240.03 90)
-					(length 2.54)
-					(name "GPIO_EMC_39"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -8.89 -240.03 90)
-					(length 2.54)
-					(name "GPIO_EMC_38"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "D6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 -240.03 90)
-					(length 2.54)
-					(name "GPIO_EMC_35"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "E5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -240.03 90)
-					(length 2.54)
-					(name "GPIO_EMC_34"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "D4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -1.27 -240.03 90)
-					(length 2.54)
-					(name "GPIO_EMC_33"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 -240.03 90)
-					(length 2.54)
-					(name "GPIO_EMC_30"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 -240.03 90)
-					(length 2.54)
-					(name "GPIO_EMC_23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "G2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 -240.03 90)
-					(length 2.54)
-					(name "GPIO_EMC_21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 8.89 -240.03 90)
-					(length 2.54)
-					(name "GPIO_EMC_20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 -240.03 90)
-					(length 2.54)
-					(name "GPIO_EMC_19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 13.97 -240.03 90)
-					(length 2.54)
-					(name "GPIO_EMC_18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 16.51 -240.03 90)
-					(length 2.54)
-					(name "GPIO_EMC_17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 19.05 -240.03 90)
-					(length 2.54)
-					(name "GPIO_EMC_16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 21.59 -240.03 90)
-					(length 2.54)
-					(name "GPIO_EMC_15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 24.13 -240.03 90)
-					(length 2.54)
-					(name "GPIO_EMC_14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 26.67 -240.03 90)
-					(length 2.54)
-					(name "GPIO_EMC_13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 29.21 -240.03 90)
-					(length 2.54)
-					(name "GPIO_EMC_12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "H1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 31.75 -240.03 90)
-					(length 2.54)
-					(name "GPIO_EMC_11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "G3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 34.29 -240.03 90)
-					(length 2.54)
-					(name "GPIO_EMC_10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "G1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 36.83 -240.03 90)
-					(length 2.54)
+					(at -27.94 -182.88 0)
+					(length 3.81)
 					(name "GPIO_EMC_09"
 						(effects
 							(font
@@ -1721,34 +1377,16 @@
 					)
 				)
 				(pin passive line
-					(at 41.91 -240.03 90)
-					(length 2.54)
-					(name "GPIO_SD_B1_00"
+					(at -27.94 -185.42 0)
+					(length 3.81)
+					(name "GPIO_EMC_10"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "L5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 44.45 -240.03 90)
-					(length 2.54)
-					(name "GPIO_SD_B1_01"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "M5"
+					(number "G1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1757,34 +1395,16 @@
 					)
 				)
 				(pin passive line
-					(at 46.99 -240.03 90)
-					(length 2.54)
-					(name "GPIO_SD_B1_02"
+					(at -27.94 -187.96 0)
+					(length 3.81)
+					(name "GPIO_EMC_11"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "M3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 49.53 -240.03 90)
-					(length 2.54)
-					(name "GPIO_SD_B1_03"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "M4"
+					(number "G3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1793,34 +1413,16 @@
 					)
 				)
 				(pin passive line
-					(at 52.07 -240.03 90)
-					(length 2.54)
-					(name "GPIO_SD_B1_04"
+					(at -27.94 -190.5 0)
+					(length 3.81)
+					(name "GPIO_EMC_12"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "P2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 54.61 -240.03 90)
-					(length 2.54)
-					(name "GPIO_SD_B1_05"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "N3"
+					(number "H1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1829,34 +1431,16 @@
 					)
 				)
 				(pin passive line
-					(at 59.69 -240.03 90)
-					(length 2.54)
-					(name "GPIO_AD_B0_01"
+					(at -27.94 -193.04 0)
+					(length 3.81)
+					(name "GPIO_EMC_13"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "H10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 62.23 -240.03 90)
-					(length 2.54)
-					(name "GPIO_AD_B1_06"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "J12"
+					(number "A6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1865,34 +1449,16 @@
 					)
 				)
 				(pin passive line
-					(at 64.77 -240.03 90)
-					(length 2.54)
-					(name "GPIO_AD_B1_14"
+					(at -27.94 -195.58 0)
+					(length 3.81)
+					(name "GPIO_EMC_14"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "G12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 67.31 -240.03 90)
-					(length 2.54)
-					(name "GPIO_AD_B1_15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "J14"
+					(number "B6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1901,8 +1467,278 @@
 					)
 				)
 				(pin passive line
-					(at 72.39 -240.03 90)
-					(length 2.54)
+					(at -27.94 -198.12 0)
+					(length 3.81)
+					(name "GPIO_EMC_15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -27.94 -200.66 0)
+					(length 3.81)
+					(name "GPIO_EMC_16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -27.94 -203.2 0)
+					(length 3.81)
+					(name "GPIO_EMC_17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -27.94 -205.74 0)
+					(length 3.81)
+					(name "GPIO_EMC_18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -27.94 -208.28 0)
+					(length 3.81)
+					(name "GPIO_EMC_19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -27.94 -210.82 0)
+					(length 3.81)
+					(name "GPIO_EMC_20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -27.94 -213.36 0)
+					(length 3.81)
+					(name "GPIO_EMC_21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -27.94 -215.9 0)
+					(length 3.81)
+					(name "GPIO_EMC_23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -27.94 -218.44 0)
+					(length 3.81)
+					(name "GPIO_EMC_30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -27.94 -220.98 0)
+					(length 3.81)
+					(name "GPIO_EMC_33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -27.94 -223.52 0)
+					(length 3.81)
+					(name "GPIO_EMC_34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -27.94 -226.06 0)
+					(length 3.81)
+					(name "GPIO_EMC_35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -27.94 -228.6 0)
+					(length 3.81)
+					(name "GPIO_EMC_38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -27.94 -231.14 0)
+					(length 3.81)
+					(name "GPIO_EMC_39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -27.94 -233.68 0)
+					(length 3.81)
+					(name "GPIO_EMC_41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -241.3 90)
+					(length 3.81)
 					(name "GPIO_B0_04"
 						(effects
 							(font
@@ -1919,8 +1755,8 @@
 					)
 				)
 				(pin passive line
-					(at 74.93 -240.03 90)
-					(length 2.54)
+					(at -5.08 -241.3 90)
+					(length 3.81)
 					(name "GPIO_B0_05"
 						(effects
 							(font
@@ -1937,8 +1773,8 @@
 					)
 				)
 				(pin passive line
-					(at 77.47 -240.03 90)
-					(length 2.54)
+					(at -2.54 -241.3 90)
+					(length 3.81)
 					(name "GPIO_B0_06"
 						(effects
 							(font
@@ -1955,8 +1791,8 @@
 					)
 				)
 				(pin passive line
-					(at 80.01 -240.03 90)
-					(length 2.54)
+					(at 0 -241.3 90)
+					(length 3.81)
 					(name "GPIO_B0_07"
 						(effects
 							(font
@@ -1973,8 +1809,8 @@
 					)
 				)
 				(pin passive line
-					(at 82.55 -240.03 90)
-					(length 2.54)
+					(at 2.54 -241.3 90)
+					(length 3.81)
 					(name "GPIO_B0_08"
 						(effects
 							(font
@@ -1991,8 +1827,8 @@
 					)
 				)
 				(pin passive line
-					(at 85.09 -240.03 90)
-					(length 2.54)
+					(at 5.08 -241.3 90)
+					(length 3.81)
 					(name "GPIO_B0_09"
 						(effects
 							(font
@@ -2008,117 +1844,9 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 90.17 -240.03 90)
-					(length 2.54)
-					(name "PMIC_STBY_REQ"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "L7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 92.71 -240.03 90)
-					(length 2.54)
-					(name "TEST_MODE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "K6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 95.25 -240.03 90)
-					(length 2.54)
-					(name "USB_OTG1_CHD_B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "N12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 97.79 -240.03 90)
-					(length 2.54)
-					(name "WAKEUP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "L6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 100.33 -240.03 90)
-					(length 2.54)
-					(name "CCM_CLK1_N"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "P13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 102.87 -240.03 90)
-					(length 2.54)
-					(name "CCM_CLK1_P"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "N13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin no_connect line
-					(at 107.95 -240.03 90)
-					(length 2.54)
+					(at 7.62 -241.3 90)
+					(length 3.81)
 					(name "GPANAIO"
 						(effects
 							(font
@@ -2135,8 +1863,80 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -5.08 180)
-					(length 2.54)
+					(at 10.16 -241.3 90)
+					(length 3.81)
+					(name "WAKEUP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -241.3 90)
+					(length 3.81)
+					(name "USB_OTG1_CHD_B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "N12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -241.3 90)
+					(length 3.81)
+					(name "TEST_MODE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "K6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -241.3 90)
+					(length 3.81)
+					(name "PMIC_STBY_REQ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 38.1 -2.54 180)
+					(length 3.81)
 					(name "GPIO_AD_B1_09"
 						(effects
 							(font
@@ -2153,8 +1953,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -7.62 180)
-					(length 2.54)
+					(at 38.1 -5.08 180)
+					(length 3.81)
 					(name "GPIO_AD_B1_08"
 						(effects
 							(font
@@ -2171,8 +1971,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -10.16 180)
-					(length 2.54)
+					(at 38.1 -7.62 180)
+					(length 3.81)
 					(name "GPIO_AD_B1_11"
 						(effects
 							(font
@@ -2189,8 +1989,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -12.7 180)
-					(length 2.54)
+					(at 38.1 -10.16 180)
+					(length 3.81)
 					(name "GPIO_AD_B1_10"
 						(effects
 							(font
@@ -2207,8 +2007,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -15.24 180)
-					(length 2.54)
+					(at 38.1 -12.7 180)
+					(length 3.81)
 					(name "GPIO_AD_B1_00"
 						(effects
 							(font
@@ -2225,8 +2025,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -17.78 180)
-					(length 2.54)
+					(at 38.1 -15.24 180)
+					(length 3.81)
 					(name "GPIO_AD_B1_01"
 						(effects
 							(font
@@ -2243,8 +2043,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -20.32 180)
-					(length 2.54)
+					(at 38.1 -17.78 180)
+					(length 3.81)
 					(name "GPIO_AD_B1_07"
 						(effects
 							(font
@@ -2261,8 +2061,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -22.86 180)
-					(length 2.54)
+					(at 38.1 -20.32 180)
+					(length 3.81)
 					(name "GPIO_AD_B1_03"
 						(effects
 							(font
@@ -2279,8 +2079,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -25.4 180)
-					(length 2.54)
+					(at 38.1 -22.86 180)
+					(length 3.81)
 					(name "GPIO_AD_B1_02"
 						(effects
 							(font
@@ -2297,8 +2097,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -27.94 180)
-					(length 2.54)
+					(at 38.1 -25.4 180)
+					(length 3.81)
 					(name "GPIO_B0_03"
 						(effects
 							(font
@@ -2315,8 +2115,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -33.02 180)
-					(length 2.54)
+					(at 38.1 -27.94 180)
+					(length 3.81)
 					(name "GPIO_B0_01"
 						(effects
 							(font
@@ -2333,8 +2133,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -35.56 180)
-					(length 2.54)
+					(at 38.1 -30.48 180)
+					(length 3.81)
 					(name "GPIO_B0_02"
 						(effects
 							(font
@@ -2351,8 +2151,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -38.1 180)
-					(length 2.54)
+					(at 38.1 -33.02 180)
+					(length 3.81)
 					(name "GPIO_B0_00"
 						(effects
 							(font
@@ -2369,8 +2169,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -40.64 180)
-					(length 2.54)
+					(at 38.1 -35.56 180)
+					(length 3.81)
 					(name "GPIO_B0_11"
 						(effects
 							(font
@@ -2387,8 +2187,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -43.18 180)
-					(length 2.54)
+					(at 38.1 -38.1 180)
+					(length 3.81)
 					(name "GPIO_B1_00"
 						(effects
 							(font
@@ -2405,8 +2205,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -45.72 180)
-					(length 2.54)
+					(at 38.1 -40.64 180)
+					(length 3.81)
 					(name "GPIO_B1_01"
 						(effects
 							(font
@@ -2423,8 +2223,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -48.26 180)
-					(length 2.54)
+					(at 38.1 -43.18 180)
+					(length 3.81)
 					(name "GPIO_B0_10"
 						(effects
 							(font
@@ -2441,8 +2241,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -50.8 180)
-					(length 2.54)
+					(at 38.1 -45.72 180)
+					(length 3.81)
 					(name "GPIO_EMC_08"
 						(effects
 							(font
@@ -2459,8 +2259,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -53.34 180)
-					(length 2.54)
+					(at 38.1 -48.26 180)
+					(length 3.81)
 					(name "GPIO_EMC_06"
 						(effects
 							(font
@@ -2477,8 +2277,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -55.88 180)
-					(length 2.54)
+					(at 38.1 -50.8 180)
+					(length 3.81)
 					(name "GPIO_EMC_05"
 						(effects
 							(font
@@ -2495,8 +2295,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -58.42 180)
-					(length 2.54)
+					(at 38.1 -53.34 180)
+					(length 3.81)
 					(name "GPIO_EMC_04"
 						(effects
 							(font
@@ -2513,8 +2313,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -60.96 180)
-					(length 2.54)
+					(at 38.1 -55.88 180)
+					(length 3.81)
 					(name "GPIO_AD_B0_02"
 						(effects
 							(font
@@ -2531,8 +2331,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -63.5 180)
-					(length 2.54)
+					(at 38.1 -58.42 180)
+					(length 3.81)
 					(name "GPIO_AD_B0_03"
 						(effects
 							(font
@@ -2549,8 +2349,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -68.58 180)
-					(length 2.54)
+					(at 38.1 -60.96 180)
+					(length 3.81)
 					(name "GPIO_AD_B0_12"
 						(effects
 							(font
@@ -2567,8 +2367,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -71.12 180)
-					(length 2.54)
+					(at 38.1 -63.5 180)
+					(length 3.81)
 					(name "GPIO_AD_B0_13"
 						(effects
 							(font
@@ -2585,8 +2385,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -73.66 180)
-					(length 2.54)
+					(at 38.1 -66.04 180)
+					(length 3.81)
 					(name "GPIO_AD_B0_14"
 						(effects
 							(font
@@ -2603,8 +2403,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -76.2 180)
-					(length 2.54)
+					(at 38.1 -68.58 180)
+					(length 3.81)
 					(name "GPIO_AD_B0_15"
 						(effects
 							(font
@@ -2621,8 +2421,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -78.74 180)
-					(length 2.54)
+					(at 38.1 -71.12 180)
+					(length 3.81)
 					(name "GPIO_EMC_32"
 						(effects
 							(font
@@ -2639,8 +2439,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -81.28 180)
-					(length 2.54)
+					(at 38.1 -73.66 180)
+					(length 3.81)
 					(name "GPIO_EMC_31"
 						(effects
 							(font
@@ -2657,8 +2457,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -83.82 180)
-					(length 2.54)
+					(at 38.1 -76.2 180)
+					(length 3.81)
 					(name "GPIO_EMC_37"
 						(effects
 							(font
@@ -2675,8 +2475,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -86.36 180)
-					(length 2.54)
+					(at 38.1 -78.74 180)
+					(length 3.81)
 					(name "GPIO_EMC_36"
 						(effects
 							(font
@@ -2693,8 +2493,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -88.9 180)
-					(length 2.54)
+					(at 38.1 -81.28 180)
+					(length 3.81)
 					(name "GPIO_B0_12"
 						(effects
 							(font
@@ -2711,8 +2511,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -91.44 180)
-					(length 2.54)
+					(at 38.1 -83.82 180)
+					(length 3.81)
 					(name "GPIO_EMC_07"
 						(effects
 							(font
@@ -2729,8 +2529,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -93.98 180)
-					(length 2.54)
+					(at 38.1 -86.36 180)
+					(length 3.81)
 					(name "GPIO_B1_13"
 						(effects
 							(font
@@ -2747,8 +2547,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -96.52 180)
-					(length 2.54)
+					(at 38.1 -88.9 180)
+					(length 3.81)
 					(name "GPIO_B1_12"
 						(effects
 							(font
@@ -2765,8 +2565,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -99.06 180)
-					(length 2.54)
+					(at 38.1 -91.44 180)
+					(length 3.81)
 					(name "GPIO_B1_02"
 						(effects
 							(font
@@ -2783,8 +2583,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -101.6 180)
-					(length 2.54)
+					(at 38.1 -93.98 180)
+					(length 3.81)
 					(name "GPIO_B1_03"
 						(effects
 							(font
@@ -2801,8 +2601,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -104.14 180)
-					(length 2.54)
+					(at 38.1 -96.52 180)
+					(length 3.81)
 					(name "GPIO_AD_B1_12"
 						(effects
 							(font
@@ -2819,8 +2619,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -106.68 180)
-					(length 2.54)
+					(at 38.1 -99.06 180)
+					(length 3.81)
 					(name "GPIO_AD_B1_13"
 						(effects
 							(font
@@ -2837,8 +2637,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -109.22 180)
-					(length 2.54)
+					(at 38.1 -101.6 180)
+					(length 3.81)
 					(name "GPIO_AD_B1_04"
 						(effects
 							(font
@@ -2855,8 +2655,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -111.76 180)
-					(length 2.54)
+					(at 38.1 -104.14 180)
+					(length 3.81)
 					(name "GPIO_AD_B1_05"
 						(effects
 							(font
@@ -2873,8 +2673,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -116.84 180)
-					(length 2.54)
+					(at 38.1 -106.68 180)
+					(length 3.81)
 					(name "GPIO_AD_B0_00"
 						(effects
 							(font
@@ -2891,8 +2691,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -121.92 180)
-					(length 2.54)
+					(at 38.1 -109.22 180)
+					(length 3.81)
 					(name "GPIO_B1_04"
 						(effects
 							(font
@@ -2909,8 +2709,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -124.46 180)
-					(length 2.54)
+					(at 38.1 -111.76 180)
+					(length 3.81)
 					(name "GPIO_B1_05"
 						(effects
 							(font
@@ -2927,8 +2727,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -127 180)
-					(length 2.54)
+					(at 38.1 -114.3 180)
+					(length 3.81)
 					(name "GPIO_B1_06"
 						(effects
 							(font
@@ -2945,8 +2745,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -129.54 180)
-					(length 2.54)
+					(at 38.1 -116.84 180)
+					(length 3.81)
 					(name "GPIO_B1_07"
 						(effects
 							(font
@@ -2963,8 +2763,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -132.08 180)
-					(length 2.54)
+					(at 38.1 -119.38 180)
+					(length 3.81)
 					(name "GPIO_B1_08"
 						(effects
 							(font
@@ -2981,8 +2781,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -134.62 180)
-					(length 2.54)
+					(at 38.1 -121.92 180)
+					(length 3.81)
 					(name "GPIO_B1_09"
 						(effects
 							(font
@@ -2999,8 +2799,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -137.16 180)
-					(length 2.54)
+					(at 38.1 -124.46 180)
+					(length 3.81)
 					(name "GPIO_B1_10"
 						(effects
 							(font
@@ -3017,8 +2817,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -139.7 180)
-					(length 2.54)
+					(at 38.1 -127 180)
+					(length 3.81)
 					(name "GPIO_B1_11"
 						(effects
 							(font
@@ -3035,8 +2835,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -142.24 180)
-					(length 2.54)
+					(at 38.1 -129.54 180)
+					(length 3.81)
 					(name "GPIO_B1_14"
 						(effects
 							(font
@@ -3053,8 +2853,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -144.78 180)
-					(length 2.54)
+					(at 38.1 -132.08 180)
+					(length 3.81)
 					(name "GPIO_B1_15"
 						(effects
 							(font
@@ -3071,8 +2871,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -147.32 180)
-					(length 2.54)
+					(at 38.1 -134.62 180)
+					(length 3.81)
 					(name "GPIO_B0_14"
 						(effects
 							(font
@@ -3089,8 +2889,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -149.86 180)
-					(length 2.54)
+					(at 38.1 -137.16 180)
+					(length 3.81)
 					(name "GPIO_B0_15"
 						(effects
 							(font
@@ -3107,8 +2907,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -154.94 180)
-					(length 2.54)
+					(at 38.1 -139.7 180)
+					(length 3.81)
 					(name "VSS"
 						(effects
 							(font
@@ -3125,8 +2925,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -157.48 180)
-					(length 2.54)
+					(at 38.1 -142.24 180)
+					(length 3.81)
 					(name "XTALO"
 						(effects
 							(font
@@ -3143,8 +2943,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -160.02 180)
-					(length 2.54)
+					(at 38.1 -144.78 180)
+					(length 3.81)
 					(name "VSS"
 						(effects
 							(font
@@ -3161,8 +2961,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -162.56 180)
-					(length 2.54)
+					(at 38.1 -147.32 180)
+					(length 3.81)
 					(name "VSS"
 						(effects
 							(font
@@ -3179,8 +2979,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -165.1 180)
-					(length 2.54)
+					(at 38.1 -149.86 180)
+					(length 3.81)
 					(name "XTALI"
 						(effects
 							(font
@@ -3197,8 +2997,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -167.64 180)
-					(length 2.54)
+					(at 38.1 -152.4 180)
+					(length 3.81)
 					(name "VSS"
 						(effects
 							(font
@@ -3215,8 +3015,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -170.18 180)
-					(length 2.54)
+					(at 38.1 -154.94 180)
+					(length 3.81)
 					(name "VSS"
 						(effects
 							(font
@@ -3233,8 +3033,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -172.72 180)
-					(length 2.54)
+					(at 38.1 -157.48 180)
+					(length 3.81)
 					(name "VSS"
 						(effects
 							(font
@@ -3251,8 +3051,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -175.26 180)
-					(length 2.54)
+					(at 38.1 -160.02 180)
+					(length 3.81)
 					(name "VSS"
 						(effects
 							(font
@@ -3269,8 +3069,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -177.8 180)
-					(length 2.54)
+					(at 38.1 -162.56 180)
+					(length 3.81)
 					(name "VSS"
 						(effects
 							(font
@@ -3287,8 +3087,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -180.34 180)
-					(length 2.54)
+					(at 38.1 -165.1 180)
+					(length 3.81)
 					(name "VSS"
 						(effects
 							(font
@@ -3305,8 +3105,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -182.88 180)
-					(length 2.54)
+					(at 38.1 -167.64 180)
+					(length 3.81)
 					(name "VSS"
 						(effects
 							(font
@@ -3323,8 +3123,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -185.42 180)
-					(length 2.54)
+					(at 38.1 -170.18 180)
+					(length 3.81)
 					(name "RTC_XTALO"
 						(effects
 							(font
@@ -3341,8 +3141,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -187.96 180)
-					(length 2.54)
+					(at 38.1 -172.72 180)
+					(length 3.81)
 					(name "VSS"
 						(effects
 							(font
@@ -3359,8 +3159,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -190.5 180)
-					(length 2.54)
+					(at 38.1 -175.26 180)
+					(length 3.81)
 					(name "VSS"
 						(effects
 							(font
@@ -3377,8 +3177,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -193.04 180)
-					(length 2.54)
+					(at 38.1 -177.8 180)
+					(length 3.81)
 					(name "RTC_XTALI"
 						(effects
 							(font
@@ -3395,8 +3195,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -195.58 180)
-					(length 2.54)
+					(at 38.1 -180.34 180)
+					(length 3.81)
 					(name "VSS"
 						(effects
 							(font
@@ -3413,8 +3213,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -198.12 180)
-					(length 2.54)
+					(at 38.1 -182.88 180)
+					(length 3.81)
 					(name "GPIO_AD_B0_05"
 						(effects
 							(font
@@ -3431,8 +3231,8 @@
 					)
 				)
 				(pin power_in line
-					(at 119.38 -200.66 180)
-					(length 2.54)
+					(at 38.1 -185.42 180)
+					(length 3.81)
 					(name "DCDC_GND"
 						(effects
 							(font
@@ -3449,8 +3249,8 @@
 					)
 				)
 				(pin power_in line
-					(at 119.38 -203.2 180)
-					(length 2.54)
+					(at 38.1 -187.96 180)
+					(length 3.81)
 					(name "DCDC_GND"
 						(effects
 							(font
@@ -3467,8 +3267,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -205.74 180)
-					(length 2.54)
+					(at 38.1 -190.5 180)
+					(length 3.81)
 					(name "NGND_KEL0"
 						(effects
 							(font
@@ -3485,8 +3285,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -208.28 180)
-					(length 2.54)
+					(at 38.1 -193.04 180)
+					(length 3.81)
 					(name "VSS"
 						(effects
 							(font
@@ -3503,8 +3303,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -210.82 180)
-					(length 2.54)
+					(at 38.1 -195.58 180)
+					(length 3.81)
 					(name "VSS"
 						(effects
 							(font
@@ -3521,8 +3321,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -213.36 180)
-					(length 2.54)
+					(at 38.1 -198.12 180)
+					(length 3.81)
 					(name "VSS"
 						(effects
 							(font
@@ -3539,8 +3339,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -215.9 180)
-					(length 2.54)
+					(at 38.1 -200.66 180)
+					(length 3.81)
 					(name "VSS"
 						(effects
 							(font
@@ -3557,8 +3357,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -218.44 180)
-					(length 2.54)
+					(at 38.1 -203.2 180)
+					(length 3.81)
 					(name "VSS"
 						(effects
 							(font
@@ -3575,8 +3375,8 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -220.98 180)
-					(length 2.54)
+					(at 38.1 -205.74 180)
+					(length 3.81)
 					(name "VSS"
 						(effects
 							(font
@@ -3592,13 +3392,229 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 38.1 -208.28 180)
+					(length 3.81)
+					(name "GPIO_SD_B1_00"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 38.1 -210.82 180)
+					(length 3.81)
+					(name "GPIO_SD_B1_01"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "M5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 38.1 -213.36 180)
+					(length 3.81)
+					(name "GPIO_SD_B1_02"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "M3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 38.1 -215.9 180)
+					(length 3.81)
+					(name "GPIO_SD_B1_03"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "M4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 38.1 -218.44 180)
+					(length 3.81)
+					(name "GPIO_SD_B1_04"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 38.1 -220.98 180)
+					(length 3.81)
+					(name "GPIO_SD_B1_05"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "N3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 38.1 -223.52 180)
+					(length 3.81)
+					(name "GPIO_AD_B0_01"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 38.1 -226.06 180)
+					(length 3.81)
+					(name "GPIO_AD_B1_06"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "J12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 38.1 -228.6 180)
+					(length 3.81)
+					(name "GPIO_AD_B1_14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 38.1 -231.14 180)
+					(length 3.81)
+					(name "GPIO_AD_B1_15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "J14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 38.1 -233.68 180)
+					(length 3.81)
+					(name "CCM_CLK1_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 38.1 -236.22 180)
+					(length 3.81)
+					(name "CCM_CLK1_P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "N13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
 	)
 	(symbol
 		(lib_id "local:MIMXRT1062DVJ6B")
-		(at 143.51 15.24 0)
+		(at 204.47 19.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3606,23 +3622,23 @@
 		(dnp no)
 		(uuid "e7f5e048-6698-4ffb-b479-be398708f589")
 		(property "Reference" "U1"
-			(at 190.246 20.066 0)
+			(at 208.28 21.336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 176.53 8.89 0)
+		(property "Value" "MIMXRT1062DVJ6B"
+			(at 210.566 127 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.54 2.54)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 15.24 0)
+			(at 204.47 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3631,7 +3647,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 15.24 0)
+			(at 204.47 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3640,7 +3656,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 143.51 15.24 0)
+			(at 204.47 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
